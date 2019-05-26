@@ -1,0 +1,14 @@
+{
+    "name": "karabulutmehmet/calculator",
+    "description": "Hesap Makinesi",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehmet Karabulut",
+            "email": "mehmetkarabulut@hotmail.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
