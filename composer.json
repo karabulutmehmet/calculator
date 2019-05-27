@@ -1,23 +1,30 @@
 {
     "name": "karabulutmehmet/calculator",
     "description": "Hesap Makinesi",
-    "license": "MIT",
     "keywords": ["Laravel","calculator", "Demo"],
     "homepage": "https://github.com/karabulutmehmet/calculator",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mehmet Karabulut",
             "email": "mehmetkarabulut@hotmail.de"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable" : true,
     "require": {
-        "php": ">=5.6.4",
-        "laravel/framework": "~5.8"
-    }, "autoload": {
+        "laravel/framework": "^5.8",
+        "php": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Karabulutmehmet\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
         "psr-4": {
             "Karabulutmehmet\\Calculator\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
